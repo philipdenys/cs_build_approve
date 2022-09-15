@@ -1,0 +1,31 @@
+{
+  "name": "cs_build_approve",
+  "version": "1.0.0",
+  "description": "User (builder) sends in a .glb file and system approves the build based on the requirements.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philipdenys/cs_build_approve.git"
+  },
+  "keywords": [
+    "carda",
+    "station",
+    "glb",
+    "3d",
+    "build",
+    "auto",
+    "approve",
+    "build",
+    "glb",
+    "checker"
+  ],
+  "author": "Philip Denys",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/philipdenys/cs_build_approve/issues"
+  },
+  "homepage": "https://github.com/philipdenys/cs_build_approve#readme"
+}
