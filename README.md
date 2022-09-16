@@ -1,19 +1,23 @@
 # cs_build_approve
 User (builder) sends in a .glb file and system approves the build based on the requirements.
 
+```node
+$ node index.js
+```
+
 ## REQUIREMENTS
 [source cs docs](https://docs.cardastation.com/home/scenes/create-custom-scenes/3d-models)
 
 ## APPROACH
-1. read .glb file and extract the json data
-2. check amount meshes -> must be 30 or less.
-3. check dimensions -> is structure within the required measurements? -> 1 plot(15mx15m) build must be 12mx12m
+- [x] read .glb file and extract the json data
+- [x] check amount meshes -> must be 30 or less.
+- [ ] check dimensions -> is structure within the required measurements? -> 1 plot(15mx15m) build must be 12mx12m
 
-## DEPENDANCIES
+## DEPENDANCIES/TOOLS
  - nodejs
  - vscode extensions for debugging:
    - [gltf-vscode](https://marketplace.visualstudio.com/items?itemName=cesium.gltf-vscode)
-   - 
+   - [gltf-import-export](https://www.npmjs.com/package/gltf-import-export)
 
 # VERSION
 
