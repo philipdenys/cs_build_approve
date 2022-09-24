@@ -13,11 +13,13 @@ $ node index.js
 - [x] check amount meshes -> must be 30 or less.
 - [ ] check dimensions -> is structure within the required measurements? -> 1 plot(15mx15m) build must be 12mx12m
 
-## DEPENDANCIES/TOOLS
+## DEPENDANCIES/TOOLS/DOCS
  - nodejs
  - vscode extensions for debugging:
    - [gltf-vscode](https://marketplace.visualstudio.com/items?itemName=cesium.gltf-vscode)
    - [gltf-import-export](https://www.npmjs.com/package/gltf-import-export)
+   - [The glTF 2.0 Specification](https://github.com/KhronosGroup/glTF/tree/main/specification/2.0)
+   - [glTF-Transform](https://gltf-transform.donmccurdy.com/cli.html)
 
 # VERSION
 
