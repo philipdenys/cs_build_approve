@@ -1,0 +1,448 @@
+{
+   "asset": {
+      "generator": "Khronos glTF Blender I/O v1.7.33",
+      "version": "2.0"
+   },
+   "scene": 0,
+   "scenes": [
+      {
+         "name": "Scene",
+         "nodes": [
+            0,
+            1,
+            2,
+            3
+         ]
+      }
+   ],
+   "nodes": [
+      {
+         "mesh": 0,
+         "name": "common.002",
+         "rotation": [
+            -0.7071056962013245,
+            0.001263837213627994,
+            -0.001263837213627994,
+            -0.7071056365966797
+         ],
+         "scale": [
+            0.007380041293799877,
+            0.007380041293799877,
+            0.007380041293799877
+         ]
+      },
+      {
+         "mesh": 1,
+         "name": "c1.005",
+         "rotation": [
+            -0.0012637220788747072,
+            -0.7071055769920349,
+            0.7071056962013245,
+            -0.0012637218460440636
+         ],
+         "scale": [
+            0.00782745610922575,
+            0.007655876688659191,
+            0.007655876688659191
+         ]
+      },
+      {
+         "mesh": 2,
+         "name": "cardanoangepasst",
+         "rotation": [
+            -0.7071056962013245,
+            0.0012638370972126722,
+            -0.0012638373300433159,
+            -0.7071055769920349
+         ],
+         "scale": [
+            0.0059554181061685085,
+            0.007380041293799877,
+            0.0059554181061685085
+         ]
+      },
+      {
+         "mesh": 3,
+         "name": "scratch1.002",
+         "rotation": [
+            -0.0012637220788747072,
+            -0.7071056365966797,
+            0.7071056962013245,
+            -0.0012637219624593854
+         ],
+         "scale": [
+            0.0013863594504073262,
+            0.004999999888241291,
+            0.001386261428706348
+         ]
+      }
+   ],
+   "materials": [
+      {
+         "doubleSided": true,
+         "name": "palette.026",
+         "pbrMetallicRoughness": {
+            "baseColorTexture": {
+               "index": 0
+            },
+            "metallicFactor": 0
+         }
+      },
+      {
+         "doubleSided": true,
+         "name": "palette.009",
+         "pbrMetallicRoughness": {
+            "baseColorTexture": {
+               "index": 1
+            },
+            "metallicFactor": 0
+         }
+      },
+      {
+         "doubleSided": true,
+         "name": "palette.006",
+         "pbrMetallicRoughness": {
+            "baseColorTexture": {
+               "index": 2
+            },
+            "metallicFactor": 0
+         }
+      },
+      {
+         "doubleSided": true,
+         "name": "palette.170",
+         "pbrMetallicRoughness": {
+            "baseColorTexture": {
+               "index": 3
+            },
+            "metallicFactor": 0
+         }
+      }
+   ],
+   "meshes": [
+      {
+         "name": "common.002",
+         "primitives": [
+            {
+               "attributes": {
+                  "POSITION": 0,
+                  "NORMAL": 1,
+                  "TEXCOORD_0": 2
+               },
+               "indices": 3,
+               "material": 0
+            }
+         ]
+      },
+      {
+         "name": "c1.007",
+         "primitives": [
+            {
+               "attributes": {
+                  "POSITION": 4,
+                  "NORMAL": 5,
+                  "TEXCOORD_0": 6
+               },
+               "indices": 7,
+               "material": 1
+            }
+         ]
+      },
+      {
+         "name": "cardanoangepasst",
+         "primitives": [
+            {
+               "attributes": {
+                  "POSITION": 8,
+                  "NORMAL": 9,
+                  "TEXCOORD_0": 10
+               },
+               "indices": 11,
+               "material": 2
+            }
+         ]
+      },
+      {
+         "name": "scratch1.002",
+         "primitives": [
+            {
+               "attributes": {
+                  "POSITION": 12,
+                  "NORMAL": 13,
+                  "TEXCOORD_0": 14
+               },
+               "indices": 15,
+               "material": 3
+            }
+         ]
+      }
+   ],
+   "textures": [
+      {
+         "sampler": 0,
+         "source": 0
+      },
+      {
+         "sampler": 0,
+         "source": 1
+      },
+      {
+         "sampler": 0,
+         "source": 2
+      },
+      {
+         "sampler": 0,
+         "source": 3
+      }
+   ],
+   "images": [
+      {
+         "name": "common",
+         "uri": "cardano_img0.png"
+      },
+      {
+         "name": "c1",
+         "uri": "cardano_img1.png"
+      },
+      {
+         "name": "cardano_logo",
+         "uri": "cardano_img2.png"
+      },
+      {
+         "name": "scratch1",
+         "uri": "cardano_img3.png"
+      }
+   ],
+   "accessors": [
+      {
+         "bufferView": 0,
+         "componentType": 5126,
+         "count": 798,
+         "max": [
+            5.167670726776123,
+            0.2999989688396454,
+            -6.6628217697143555
+         ],
+         "min": [
+            -5.232329368591309,
+            -0.3000010550022125,
+            -23.262821197509766
+         ],
+         "type": "VEC3"
+      },
+      {
+         "bufferView": 1,
+         "componentType": 5126,
+         "count": 798,
+         "type": "VEC3"
+      },
+      {
+         "bufferView": 2,
+         "componentType": 5126,
+         "count": 798,
+         "type": "VEC2"
+      },
+      {
+         "bufferView": 3,
+         "componentType": 5123,
+         "count": 1692,
+         "type": "SCALAR"
+      },
+      {
+         "bufferView": 4,
+         "componentType": 5126,
+         "count": 228,
+         "max": [
+            3.972498655319214,
+            0.29143187403678894,
+            -9.262884140014648
+         ],
+         "min": [
+            0.7724982500076294,
+            0.19143187999725342,
+            -11.662883758544922
+         ],
+         "type": "VEC3"
+      },
+      {
+         "bufferView": 5,
+         "componentType": 5126,
+         "count": 228,
+         "type": "VEC3"
+      },
+      {
+         "bufferView": 6,
+         "componentType": 5126,
+         "count": 228,
+         "type": "VEC2"
+      },
+      {
+         "bufferView": 7,
+         "componentType": 5123,
+         "count": 468,
+         "type": "SCALAR"
+      },
+      {
+         "bufferView": 8,
+         "componentType": 5126,
+         "count": 720,
+         "max": [
+            3.9599575996398926,
+            0.3303837776184082,
+            -15.078205108642578
+         ],
+         "min": [
+            -3.940042495727539,
+            0.030383575707674026,
+            -22.378206253051758
+         ],
+         "type": "VEC3"
+      },
+      {
+         "bufferView": 9,
+         "componentType": 5126,
+         "count": 720,
+         "type": "VEC3"
+      },
+      {
+         "bufferView": 10,
+         "componentType": 5126,
+         "count": 720,
+         "type": "VEC2"
+      },
+      {
+         "bufferView": 11,
+         "componentType": 5123,
+         "count": 1080,
+         "type": "SCALAR"
+      },
+      {
+         "bufferView": 12,
+         "componentType": 5126,
+         "count": 326,
+         "max": [
+            1.26685631275177,
+            0.3193148076534271,
+            -119.9384536743164
+         ],
+         "min": [
+            0.16685627400875092,
+            0.2193148136138916,
+            -121.5384521484375
+         ],
+         "type": "VEC3"
+      },
+      {
+         "bufferView": 13,
+         "componentType": 5126,
+         "count": 326,
+         "type": "VEC3"
+      },
+      {
+         "bufferView": 14,
+         "componentType": 5126,
+         "count": 326,
+         "type": "VEC2"
+      },
+      {
+         "bufferView": 15,
+         "componentType": 5123,
+         "count": 636,
+         "type": "SCALAR"
+      }
+   ],
+   "bufferViews": [
+      {
+         "buffer": 0,
+         "byteLength": 9576,
+         "byteOffset": 0
+      },
+      {
+         "buffer": 0,
+         "byteLength": 9576,
+         "byteOffset": 9576
+      },
+      {
+         "buffer": 0,
+         "byteLength": 6384,
+         "byteOffset": 19152
+      },
+      {
+         "buffer": 0,
+         "byteLength": 3384,
+         "byteOffset": 25536
+      },
+      {
+         "buffer": 0,
+         "byteLength": 2736,
+         "byteOffset": 28920
+      },
+      {
+         "buffer": 0,
+         "byteLength": 2736,
+         "byteOffset": 31656
+      },
+      {
+         "buffer": 0,
+         "byteLength": 1824,
+         "byteOffset": 34392
+      },
+      {
+         "buffer": 0,
+         "byteLength": 936,
+         "byteOffset": 36216
+      },
+      {
+         "buffer": 0,
+         "byteLength": 8640,
+         "byteOffset": 37152
+      },
+      {
+         "buffer": 0,
+         "byteLength": 8640,
+         "byteOffset": 45792
+      },
+      {
+         "buffer": 0,
+         "byteLength": 5760,
+         "byteOffset": 54432
+      },
+      {
+         "buffer": 0,
+         "byteLength": 2160,
+         "byteOffset": 60192
+      },
+      {
+         "buffer": 0,
+         "byteLength": 3912,
+         "byteOffset": 62352
+      },
+      {
+         "buffer": 0,
+         "byteLength": 3912,
+         "byteOffset": 66264
+      },
+      {
+         "buffer": 0,
+         "byteLength": 2608,
+         "byteOffset": 70176
+      },
+      {
+         "buffer": 0,
+         "byteLength": 1272,
+         "byteOffset": 72784
+      }
+   ],
+   "samplers": [
+      {
+         "magFilter": 9729,
+         "minFilter": 9987
+      }
+   ],
+   "buffers": [
+      {
+         "uri": "cardano_data.bin",
+         "byteLength": 74056
+      }
+   ]
+}

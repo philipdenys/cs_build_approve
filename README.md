@@ -23,6 +23,15 @@ $ node index.js
 
 # VERSION
 
+1.0.2 return the amount of triangles
+- [ ] get the triangles data
+- [ ] 
+
+1.0.1 return important parameters
+- [x] amount of meshes
+- [x] if has camera (not allowed)
+- [x] if has lighting (not allowed)
+
 1.0.0 Read out a .glb file:
 - use node to check if file has json
 - aim to extract data to auto approve a 3D build

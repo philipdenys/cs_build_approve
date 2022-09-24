@@ -1,22 +1,55 @@
+
 // gltf-vscode converted the .glb file to .gltf
+fs = require('fs');
 
-// use fs to call in the file
-fs = require('fs')
-fs.readFile('./cardano.gltf', 'utf8', function (err, data) {
-   if (err) {
-      return console.log(err);
-   }
-   //console.log(typeof data);
-   // convert string to JSON
-   var jsondata = JSON.parse(data)
-   console.log(jsondata);
+let baseStyles = [
+   "color: #fff",
+   "background-color: red",
+   "padding: 2px 4px",
+   "border-radius: 2px"
+].join(";");
 
-   // get length meshes
-   var qtyMeshes = jsondata.meshes.length
-   console.log('amount of meshes: ' + qtyMeshes)
-   // get 
+var arguments = process.argv;
+var gtlffile = arguments[2]
 
-});
+// console.log(arguments.length)
 
-// validate the format
+// add file location to the node parameter in the terminal
+// node index.js ./cardano.glb
+// console.log(typeof gtlffile)
+// check if the file is passed in the terminal
+if (arguments.length = 3) {
+   // console.log("Usage: " + __filename + " " + gtlffile);
+   // process.exit();
+   fs.readFile(gtlffile, 'utf8', function (err, data) {
+      if (err) {
+         return console.log(err);
+      }
+      //console.log(typeof data);
 
+      // convert string to JSON
+      var jsondata = JSON.parse(data)
+      // console.log(jsondata);
+
+      // get length meshes
+      var qtyMeshes = jsondata.meshes.length
+      console.log('amount of meshes: ' + qtyMeshes)
+
+      // get length cameras
+      var qtyCameras = jsondata.cameras.length
+      console.log('amount of cameras: ' + qtyCameras)
+
+      // get length lights
+      var qtyLights = jsondata.extensions.KHR_lights_punctual.lights.length
+      console.log('amount of lights: ' + qtyLights)
+
+
+   });
+
+   // validate the format
+
+
+
+} else {
+   console.log('file location is not passed in the terminal')
+}
