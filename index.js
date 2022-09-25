@@ -1,6 +1,9 @@
-
 // gltf-vscode converted the .glb file to .gltf
-fs = require('fs');
+const fs = require('fs');
+const validator = require('gltf-validator');
+// const fetch = require('node-fetch');
+
+
 
 let baseStyles = [
    "color: #fff",
@@ -35,6 +38,8 @@ if (arguments.length = 3) {
       var qtyMeshes = jsondata.meshes.length
       console.log('amount of meshes: ' + qtyMeshes)
 
+
+
       // get length cameras
       var qtyCameras = jsondata.cameras.length
       console.log('amount of cameras: ' + qtyCameras)
@@ -43,6 +48,23 @@ if (arguments.length = 3) {
       var qtyLights = jsondata.extensions.KHR_lights_punctual.lights.length
       console.log('amount of lights: ' + qtyLights)
 
+      // get length triangles
+      // var qtyTriangles = jsondata.meshes[0].primitives[0].attributes.TANGENT.count
+      // console.log('amount of triangles: ' + qtyTriangles)
+
+
+      // fetch(gtlffile)
+      //    .then((response) => response.arrayBuffer())
+      //    .then((asset) => validator.validateBytes(new Uint8Array(asset)))
+      //    .then((report) => console.info('Validation succeeded: ', report))
+      //    .catch((error) => console.error('Validation failed: ', error));
+
+      const asset = fs.readFileSync(gtlffile);
+
+      validator.validateBytes(new Uint8Array(asset))
+         // .then((report) => console.info('Validation succeeded: ', report))
+         .then((report) => console.info('amount of triangles: ', report.info.totalTriangleCount))
+         .catch((error) => console.error('Validation failed: ', error));
 
    });
 

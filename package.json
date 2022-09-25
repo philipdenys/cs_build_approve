@@ -27,5 +27,9 @@
   "bugs": {
     "url": "https://github.com/philipdenys/cs_build_approve/issues"
   },
-  "homepage": "https://github.com/philipdenys/cs_build_approve#readme"
+  "homepage": "https://github.com/philipdenys/cs_build_approve#readme",
+  "dependencies": {
+    "gltf-validator": "^2.0.0-dev.3.9",
+    "node-fetch": "^3.2.10"
+  }
 }

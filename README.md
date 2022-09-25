@@ -20,11 +20,13 @@ $ node index.js
    - [gltf-import-export](https://www.npmjs.com/package/gltf-import-export)
    - [The glTF 2.0 Specification](https://github.com/KhronosGroup/glTF/tree/main/specification/2.0)
    - [glTF-Transform](https://gltf-transform.donmccurdy.com/cli.html)
+- https://dart.dev/get-dart
+- 
 
 # VERSION
 
 1.0.2 return the amount of triangles
-- [ ] get the triangles data
+- [ ] get the triangles data (gltf-validator)
 - [ ] 
 
 1.0.1 return important parameters

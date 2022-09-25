@@ -1,0 +1,41 @@
+Validation succeeded:  {
+  mimeType: 'model/gltf+json',
+  validatorVersion: '2.0.0-dev.3.9',
+  validatedAt: '2022-09-25T10:38:06.817Z',
+  issues: {
+    numErrors: 0,
+    numWarnings: 0,
+    numInfos: 0,
+    numHints: 16,
+    messages: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    truncated: false
+  },
+  info: {
+    version: '2.0',
+    generator: 'Khronos glTF Blender I/O v3.2.43',
+    extensionsUsed: [ 'KHR_lights_punctual' ],
+    extensionsRequired: [ 'KHR_lights_punctual' ],
+    resources: [ [Object], [Object], [Object], [Object], [Object] ],
+    animationCount: 0,
+    materialCount: 4,
+    hasMorphTargets: false,
+    hasSkins: false,
+    hasTextures: true,
+    hasDefaultScene: true,
+    drawCallCount: 4,
+    totalVertexCount: 2467,
+    totalTriangleCount: 1292,
+    maxUVs: 1,
+    maxInfluences: 0,
+    maxAttributes: 3
+  }
+}
